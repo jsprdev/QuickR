@@ -55,3 +55,4 @@ quickr/
 - **No analytics, no login item, no auto-update**. Single-user, single-purpose.
 - **Non-URL payloads** (Wi-Fi credentials, vCard, plain text) are detected and offered for copy.
 # QuickR
+# QuickR
