@@ -36,6 +36,8 @@
 
 That's it.
 
+<i>On first open, go to **Privacy & Security --> Scroll down to Quickr settings --> Open Anyway**.</i>
+
 ---
 
 <img width="400" height="336" alt="quickr demo" src="https://github.com/user-attachments/assets/f159a7bc-280c-446e-8b65-3ceffdb797c0" /> <img width="400" height="336" alt="quickr multi qr" src="https://github.com/user-attachments/assets/de086b16-d134-4143-ad90-b73a69be5d82" />
