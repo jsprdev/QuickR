@@ -17,3 +17,10 @@ Packages/
 Package.resolved
 
 scripts/
+
+Resources/
+
+build/
+
+.claude/
+

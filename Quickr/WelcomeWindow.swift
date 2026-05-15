@@ -102,10 +102,12 @@ private struct WelcomeView: View {
             if !permissionGranted { permissionCard }
             Spacer(minLength: 0)
             ctaButton
+            CreditFooter()
+                .padding(.top, 4)
         }
         .padding(.horizontal, 36)
         .padding(.top, 40)
-        .padding(.bottom, 28)
+        .padding(.bottom, 20)
         .frame(width: 460)
         .background(WindowBackground())
         .onAppear { recheckPermission() }

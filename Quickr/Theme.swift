@@ -67,6 +67,24 @@ struct Keycap: View {
     }
 }
 
+// MARK: - Credit footer (shared with WelcomeWindow and Settings)
+
+struct CreditFooter: View {
+    var body: some View {
+        HStack(spacing: 8) {
+            Text("Made by [jsprdev](https://www.linkedin.com/in/jsprdev)")
+            Text("·").foregroundStyle(.tertiary)
+            Link(destination: URL(string: "https://github.com/jsprdev/QuickR")!) {
+                Label("GitHub", systemImage: "chevron.left.forwardslash.chevron.right")
+                    .labelStyle(.titleAndIcon)
+            }
+        }
+        .font(.caption2)
+        .foregroundStyle(.secondary)
+        .tint(.secondary)
+    }
+}
+
 // MARK: - Card section
 
 /// Vertical card section: optional uppercase header, rounded translucent body,

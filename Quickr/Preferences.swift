@@ -53,10 +53,12 @@ struct PreferencesView: View {
                 AppearanceCard()
                 HistoryCard()
                 AboutCard()
+                CreditFooter()
+                    .padding(.top, 4)
             }
             .padding(.horizontal, 36)
             .padding(.top, 32)
-            .padding(.bottom, 28)
+            .padding(.bottom, 24)
         }
         .frame(width: 520, height: 640)
         .background(WindowBackground())
