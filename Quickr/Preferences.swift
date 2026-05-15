@@ -347,22 +347,46 @@ private struct HistoryRow: View {
 }
 
 private struct AboutCard: View {
+    @ObservedObject private var launchAtLogin = LaunchAtLogin.shared
+
     var body: some View {
-        SettingsCard("About") {
-            HStack(spacing: 12) {
-                Image(systemName: "sparkles")
-                    .font(.system(size: 16, weight: .medium))
-                    .foregroundStyle(.tint)
-                    .symbolRenderingMode(.hierarchical)
-                    .frame(width: 24)
-                Text("Welcome screen")
-                    .font(.callout)
-                Spacer()
-                Button("Show Again") {
-                    WelcomeWindowController.shared.show()
+        SettingsCard("General", footer: "Quickr stays in the menu bar with no Dock icon. Turn this on to have it start automatically when you log in.") {
+            VStack(spacing: 12) {
+                HStack(spacing: 12) {
+                    Image(systemName: "power")
+                        .font(.system(size: 16, weight: .medium))
+                        .foregroundStyle(.tint)
+                        .symbolRenderingMode(.hierarchical)
+                        .frame(width: 24)
+                    Text("Launch at login")
+                        .font(.callout)
+                    Spacer()
+                    Toggle("", isOn: Binding(
+                        get: { launchAtLogin.isEnabled },
+                        set: { launchAtLogin.setEnabled($0) }
+                    ))
+                    .labelsHidden()
+                    .toggleStyle(.switch)
+                }
+
+                Divider()
+
+                HStack(spacing: 12) {
+                    Image(systemName: "sparkles")
+                        .font(.system(size: 16, weight: .medium))
+                        .foregroundStyle(.tint)
+                        .symbolRenderingMode(.hierarchical)
+                        .frame(width: 24)
+                    Text("Welcome screen")
+                        .font(.callout)
+                    Spacer()
+                    Button("Show Again") {
+                        WelcomeWindowController.shared.show()
+                    }
                 }
             }
         }
+        .onAppear { launchAtLogin.refresh() }
     }
 }
 
