@@ -1,0 +1,17 @@
+# XcodeGen output (regenerate via `xcodegen generate`)
+Quickr.xcodeproj/
+
+# Xcode
+build/
+DerivedData/
+*.xcworkspace/xcuserdata/
+xcuserdata/
+*.xcuserstate
+
+# macOS
+.DS_Store
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
