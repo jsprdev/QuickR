@@ -15,3 +15,5 @@ xcuserdata/
 .build/
 Packages/
 Package.resolved
+
+scripts/
