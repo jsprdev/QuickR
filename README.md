@@ -5,14 +5,14 @@
 
 <h1 align="center">Quickr</h1>
 
-<h6 align="center">
-  Click, drag, and scan. It's even simpler than it sounds.
-</h6>
 
 <p align="center">
   a lightweight, ultra-fast, native QR code scanner for macOS
 </p>
 
+<h6 align="center">
+  Click, drag, and scan. It's even simpler than it sounds.
+</h6>
 
 <p align="center">
   <kbd>⌘</kbd> <kbd>⇧</kbd> <kbd>8</kbd>
