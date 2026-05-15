@@ -1,3 +1,8 @@
+
+<p align="center">
+  <img width="150" height="150" alt="Logo for Quickr" src="https://github.com/user-attachments/assets/563655ac-dc97-4ddf-82f0-08b3eb7f34e3" />  
+</p>
+
 <h1 align="center">Quickr</h1>
 
 <h6 align="center">
@@ -18,29 +23,64 @@
 ## Quick start
 
 1. Press **⌘ ⇧ 8** (Cmd + Shift + 8) anywhere on your Mac.
-2. Drag a rectangle around the QR code.
+2. Drag-click a region around the QR code. Just like taking a screenshot.
 3. Open the link, copy the text, or take a smart action.
 
 That's it.
 
 ---
-<br></br>
+
+<img width="480" height="404" alt="quickr demo" src="https://github.com/user-attachments/assets/f159a7bc-280c-446e-8b65-3ceffdb797c0" /> <img width="480" height="404" alt="quickr multi qr" src="https://github.com/user-attachments/assets/de086b16-d134-4143-ad90-b73a69be5d82" />
+
+## Features
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### One shortcut, anywhere
+
+Default <kbd>⌘</kbd> <kbd>⇧</kbd> <kbd>8</kbd>. Change it in Settings.
+
+</td>
+<td width="50%" valign="top">
+
+### Smart actions
+
+Opens links, copies Wi-Fi passwords, adds contacts, saves calendar events.
 <br></br>
 
-## Quality of Life
+</td>
+</tr>
+<tr>
+<td valign="top">
 
-- **One shortcut, anywhere** — default **⌘ ⇧ 8**, change it in Settings.
-- **Smart actions** — opens links, copies Wi-Fi passwords, adds contacts, saves calendar events.
-- **Smart Scan mode** — bind a second hotkey to auto-find every QR on screen with no dragging.
-- **Lives in the menu bar** — out of the way until you need it.
-- **Private by design** — no analytics, no login, no cloud. Everything stays on your Mac.
+### Smart Scan mode
+
+Bind a second hotkey to auto-find every QR on screen with no dragging.
+<br></br>
+
+</td>
+<td valign="top">
+
+### Lives in the menu bar
+
+Out of the way until you need it.
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### History
+Your last 50 scans are kept locally. Open, copy, or clear them under **Settings → History**.
+<br></br>
+</td>
+</tr>
+</table>
 
 ---
 
 ## Advanced
-
-### Smart Scan
-Open **Settings → General → Smart scan** and record any shortcut. Press it from anywhere — Quickr captures the screen under your cursor, finds every QR, and shows you the result. Leave it blank to disable.
 
 ### Choose a browser
 URLs open in your system default by default. Override under **Settings → General → Open links in**.
@@ -48,8 +88,6 @@ URLs open in your system default by default. Override under **Settings → Gener
 ### Result bubble appearance
 Three styles: **Liquid Glass**, **Material**, **Solid Color**. Pick one under **Settings → Appearance**. Solid lets you set any hex color including alpha.
 
-### History
-Your last 50 scans are kept locally. Open, copy, or clear them under **Settings → History**.
 
 ### Supported payload types
 | Payload | Primary action |
@@ -84,5 +122,5 @@ Press **⌘R** in Xcode.
 ---
 
 <p align="center">
-  <sub>No analytics. No login. No cloud.</sub>
+  <sub>Fully open-source! Everything runs on your Mac.</sub>
 </p>
