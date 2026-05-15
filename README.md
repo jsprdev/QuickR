@@ -18,6 +18,14 @@
   <kbd>⌘</kbd> <kbd>⇧</kbd> <kbd>8</kbd>
 </p>
 
+<p align="center">
+  <a href="https://github.com/jsprdev/QuickR/releases/latest/download/Quickr.dmg">
+    <img src="https://img.shields.io/github/v/release/jsprdev/QuickR?label=Download%20for%20macOS&style=for-the-badge&color=111&labelColor=111&logo=apple&logoColor=white" alt="Download Quickr">
+  </a>
+  <br />
+  <sub>macOS 14 (Sonoma) or later · Apple Silicon &amp; Intel</sub>
+</p>
+
 ---
 
 ## Quick start
@@ -30,7 +38,7 @@ That's it.
 
 ---
 
-<img width="480" height="404" alt="quickr demo" src="https://github.com/user-attachments/assets/f159a7bc-280c-446e-8b65-3ceffdb797c0" /> <img width="480" height="404" alt="quickr multi qr" src="https://github.com/user-attachments/assets/de086b16-d134-4143-ad90-b73a69be5d82" />
+<img width="400" height="336" alt="quickr demo" src="https://github.com/user-attachments/assets/f159a7bc-280c-446e-8b65-3ceffdb797c0" /> <img width="400" height="336" alt="quickr multi qr" src="https://github.com/user-attachments/assets/de086b16-d134-4143-ad90-b73a69be5d82" />
 
 ## Features
 <table>
