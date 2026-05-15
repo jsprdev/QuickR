@@ -30,7 +30,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ notification: Notification) {
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
         if let button = statusItem.button {
-            let icon = NSImage(systemSymbolName: "qrcode.viewfinder", accessibilityDescription: "Quickr")
+            let icon = NSImage(named: "MenuBarIcon") ?? NSImage(systemSymbolName: "qrcode.viewfinder", accessibilityDescription: "Quickr")
             icon?.isTemplate = true
             button.image = icon
         }
